@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - code that passes betty check
+ * bettycode - code that passes betty check
  *
  * @c: string
  *
  * Return: int
  */
 
-int main(char *c)
+int bettycode(char *c)
 {
 	c = "Hello World";
 
