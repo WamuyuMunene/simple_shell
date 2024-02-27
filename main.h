@@ -13,7 +13,7 @@
 #include <dirent.h>
 
 /**
- * macros used def of constants
+ * macros used in def of constants
  */
 
 #define EXTERNAL_COMMAND 1
