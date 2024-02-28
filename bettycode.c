@@ -13,7 +13,7 @@ int bettycode(char *c)
 {
 	c = "Hello World";
 
-	printf("%s", c);
+	printf("%s\n", c);
 
 	return (0);
 }
