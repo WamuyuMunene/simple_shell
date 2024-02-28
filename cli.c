@@ -21,7 +21,8 @@
 int main(int argc __attribute__((unused)), char **argv)
 {
 	char **current_command = NULL;
-	int i, type_command = 0;
+	int i;
+	int type_command = 0;
 	size_t n = 0;
 
 	signal(SIGINT, ctrl_c_handler);
