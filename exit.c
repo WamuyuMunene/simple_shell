@@ -10,7 +10,8 @@
 
 void quit(char **tokenized_command)
 {
-	int num_token = 0, arg;
+	int num_token = 0;
+	int arg;
 
 	for (; tokenized_command[num_token] != NULL; num_token++)
 		;
