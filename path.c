@@ -11,7 +11,9 @@
 char *check_path(char *command)
 {
 	char **path_array = NULL;
-	char *temp, *temp2, *path_cpy;
+	char *temp;
+	char *temp2;
+	char *path_cpy;
 	char *path = _getenv("PATH");
 	int i;
 
